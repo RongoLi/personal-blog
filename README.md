@@ -77,7 +77,7 @@ $ sudo /etc/init.d/nginx start
 ```
 #### 3. 资源文件上传
 ```sh 
-scp ./public/*  yourServerName@129.204.226.xxx:~/personal-blog  # 注意personal-blog是否已经创建
+scp -r ./public/*  yourServerName@129.204.226.xxx:~/personal-blog  # 注意personal-blog是否已经创建
 ```
 #### 基于Github搭建个人博客
 首先到你的个人Github上创建xxxx.github.io仓库（xxx你的Github用户名称，如 rongoli.github.io）
